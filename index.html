@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ratings</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="star">
+    <img src="icon-star.svg">
+    </div>
+    <div class="words">
+    <p class="top">
+      How did we do?
+    </p>
+    <p class="world">
+      Please let us know how we did with your
+      support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+    <button class="btn"  onclick="btn1(1)">1</button>
+    <button class="btn"  onclick="btn1(2)">2</button>
+    <button class="btn"  onclick="btn1(3)">3</button>
+    <button class="btn"  onclick="btn1(4)">4</button>
+    <button class="btn"  onclick="btn1(5)">5</button>
+    </div>
+    <button class="submit" onclick="openpopup()">SUBMIT</button>
+  </div>
+
+  <div class="block" id="popup">
+    <img src="illustration-thank-you.svg">
+    <div class="comment">
+      You selected <span class="selected"></span> out of 5.
+    </div>
+    <p class="thank">Thank you!</p>
+    <p class="we">
+      We appreciate you taking the time to give a rating.
+      If you ever need more support,don't hesistate to
+      get in touch!
+    </p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

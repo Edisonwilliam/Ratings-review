@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  flex-wrap: wrap;
+}
+
+.container{
+  background-color:hsl(213, 19%, 18%);
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.star{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-color: hsl(228, 45%, 44%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 40px;
+  margin: 40px;
+}
+
+.words{
+    margin-left: 40px;
+}
+
+.top{
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.world{
+  font-size: 15px;
+  font-weight:lighter;
+  margin-top: 10px;
+  color: white;
+  max-width: 300px;
+}
+
+.btn{
+  margin-top: 30px;
+  gap: 15px;
+  color: wheat;
+  width: 45px;
+  height: 45px;
+  border-radius: 40px;
+  background-color: hsl(213, 19%, 18%) ;
+  margin-right: 10px;
+  pointer-events: fill;
+  cursor: grab;
+  outline: none;
+}
+
+.btn:hover{
+   background-color: orange;
+}
+
+.btn:active{
+  background-color: orange;
+  color: white;
+}
+
+
+.submit{
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  background-color:  hsl(25, 97%, 53%);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: white;
+}
+
+.submit:active{
+  background-color: azure;
+}
+
+.block{
+  background-color:hsl(213, 19%, 18%);
+  height: 320px;
+  width: 400px;
+  border-radius: 15px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-70%);
+ padding: 0 30px 30px;
+  visibility: hidden;
+}
+
+.blockpopup{
+  visibility: visible;
+}
+
+.block img{
+  margin-top: 30px;
+  margin-left: 75px;
+  margin-bottom: 10px;
+  
+}
+
+.comment{
+  color: orangered;
+  background-color: hsl(213, 19%, 18%) ;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.thank{
+  margin-top: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.we{
+  max-width: 310px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: grey;
+  text-align: center;
+}
