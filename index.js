@@ -10,7 +10,7 @@ function btn1(num){
 function openpopup(){
     if(btn1){
         popup.classList.add("blockpopup")
-        container.classList.add("none")
+        document.querySelector(".container").classList.add("containerhidden")
     }
     else{
         alert("Please select a rating")
