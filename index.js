@@ -10,6 +10,7 @@ function btn1(num){
 function openpopup(){
     if(btn1){
         popup.classList.add("blockpopup")
+        container.classList.add("none")
     }
     else{
         alert("Please select a rating")
